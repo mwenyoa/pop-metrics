@@ -1,0 +1,27 @@
+.Header {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.backHome {
+  display: flex;
+  justify-content: flex-start;
+  background-color: crimson;
+  font-size: 12em;
+}
+
+header {
+  width: 100%;
+  z-index: 100;
+  padding: 2%;
+  box-shadow: 0 5px 5px 0 rgb(18, 18, 124);
+  justify-content: space-between;
+  background-color: rgb(32, 82, 122);
+  position: fixed;
+}
+
+.Titile {
+  width: 100%;
+  text-align: center;
+}
