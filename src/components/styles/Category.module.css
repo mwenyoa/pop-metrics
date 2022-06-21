@@ -1,0 +1,22 @@
+
+.Category {
+  background-color: rgb(32, 82, 122);
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 30%);
+  column-gap: 1%;
+  padding: 5%;
+}
+
+.categorie {
+  display: grid;
+  box-shadow: 1px 1px 1px 1px rgb(27, 70, 105);
+  border-width: 1px;
+  border-color: rgb(18, 123, 209);
+  padding: 20px;
+  border-style: groove;
+  height: 200px;
+  width: 100%;
+}

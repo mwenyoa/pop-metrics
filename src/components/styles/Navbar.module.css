@@ -1,0 +1,25 @@
+.Logo {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.backHome {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.settings {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 30px;
+  color: #fff;
+  mix-blend-mode: difference;
+  font-weight: lighter;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+}
