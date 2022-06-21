@@ -60,6 +60,6 @@
     "stylelint-scss": "^3.21.0"
   },
   "optionalDependencies": {
-    "fsevents": "^2.0.7"
-}
+    "fsevents": "^2.3.2"
+  }
 }
