@@ -36,3 +36,16 @@ export const fetchPopulation = async (dispatch) => {
     throw new Error(error);
   }
 };
+
+const populationReducer = (state = initialState, action) => {
+  switch (action.type) {
+    case GET_POPULATION_DATA:
+      return { ...state, population: action.payload };
+    case FETCH_STATE:
+      return [...state];
+    default:
+      return state;
+  }
+};
+
+export default populationReducer;
