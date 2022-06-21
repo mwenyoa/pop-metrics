@@ -17,4 +17,22 @@ const loadPopulation = (payload) => ({
   payload,
 });
 
+export const fetchPopulation = async (dispatch) => {
+  try {
+    const response = await fetch(URL);
+    const population = await response.json();
 
+    dispatch(
+      loadPopulation(population.map((people) => {
+        const {
+          code, country, iso3, populationCounts,
+        } = people;
+        return {
+          code, country, iso3, populationCounts,
+        };
+      })),
+    );
+  } catch (error) {
+    throw new Error(error);
+  }
+};
