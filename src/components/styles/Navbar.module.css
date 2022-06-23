@@ -1,6 +1,9 @@
 .Logo {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
 }
 
 .backHome {
@@ -14,12 +17,56 @@
   font-size: 30px;
   color: #fff;
   mix-blend-mode: difference;
-  font-weight: lighter;
+  font-weight: bolder;
+}
+
+.mic {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 30px;
+  color: #fff;
+  mix-blend-mode: difference;
+  font-weight: bolder;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  position: relative;
+  margin-top: 0;
+  padding: 0%;
+  z-index: 0;
+}
+
+.search {
+  width: 20%;
+  padding: 3%;
+  margin: 0 auto;
+  text-align: center;
+  height: 50%;
+}
+
+.righttIcons {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .Logo {
+    display: flex;
+    font-size: 90%;
+    text-transform: uppercase;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 0;
+    padding: 3%;
+    z-index: 0;
+  }
 }
