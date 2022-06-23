@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render metrics details component Test Details component  rendering properly 1`] = `
+<section
+  className="catDetails"
+/>
+`;
