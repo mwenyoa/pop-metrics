@@ -6,8 +6,6 @@
 > **This is a webapp that displays  census metrics data for the all the countries in the world from 1960 to 2018. And it has the functionality of searching for a specific country using  the search bar.**
 
 
-Additional description about the project and its features.
-
 ## Built With
 
 - JavaScript, HTML, CSS
@@ -17,13 +15,13 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://resilient-gaufre-706d82.netlify.app/)
+[Live Demo Link](https://extraordinary-faun-d23aa0.netlify.app)
 
 ## Project Description
 
-Click here to watch a [video](https://www.loom.com/share/7c9ed7b919cc400cbf21ba073ad5e462) that gives a brief description of the project
+Click here to watch a [video](https://www.loom.com/share/5a604551755441e89978a586b95d435b) that gives a brief description of the project
 
-## Getting Started with Create React App
+## Getting Started with Create React Appy
 
 **Installation**
 - Clone the repository
