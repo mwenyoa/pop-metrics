@@ -1,7 +1,13 @@
-.Header {
-  background-size: cover;
-  background-repeat: no-repeat;
+
+header {
   width: 100%;
+  z-index: 100;
+  padding: 2%;
+  box-shadow: 0 5px 5px 0 rgb(18, 18, 124);
+  justify-content: space-between;
+  background-color: rgb(32, 82, 122);
+  height: 100px;
+  position: fixed;
 }
 
 .backHome {
@@ -11,17 +17,13 @@
   font-size: 12em;
 }
 
-header {
-  width: 100%;
-  z-index: 100;
-  padding: 2%;
-  box-shadow: 0 5px 5px 0 rgb(18, 18, 124);
-  justify-content: space-between;
-  background-color: rgb(32, 82, 122);
-  position: fixed;
-}
-
 .Titile {
   width: 100%;
   text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    height: 100px;
+  }
 }

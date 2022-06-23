@@ -1,7 +1,9 @@
 .categoryname {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: center;
+  width: 100%;
+  mix-blend-mode: difference;
 }
 
 .detailMsg {
@@ -12,6 +14,44 @@
 
 .catDetails {
   padding: 2%;
-  margin-top: 30px;
+  margin-top: 20px;
   color: #fff;
+}
+
+.metricsData {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 50%);
+  text-decoration: none;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.metricsData p:nth-child(2) {
+  background-color: #fff;
+  color: rgb(6, 6, 100);
+  text-align: center;
+  font-size: 20px;
+  padding: 1%;
+  mix-blend-mode: difference;
+}
+
+.metricsData p:nth-child(1) {
+  background-color: #fff;
+  color: rgb(6, 6, 100);
+  text-align: center;
+  font-size: 20px;
+  padding: 1%;
+  mix-blend-mode: difference;
+}
+
+.Titles {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  text-decoration: none;
+  width: 80%;
+  margin: 0 auto;
+  mix-blend-mode: difference;
+  color: rgb(6, 6, 100);
+  text-align: center;
+  background-color: #fff;
 }
