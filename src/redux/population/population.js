@@ -1,7 +1,7 @@
 const URL = 'https://countriesnow.space/api/v0.1/countries/population';
 
-export const GET_POPULATION_DATA = 'pop-metrics/redux/GET_POPULATION_DATA';
-export const FETCH_STATE = 'pop-metrics/redux/FETCH_STATE';
+export const GET_POPULATION_DATA = 'GET_POPULATION_DATA';
+export const FETCH_STATE = 'FETCH_STATE';
 
 // initial state
 const initialState = [];
@@ -17,23 +17,24 @@ const loadPopulation = (payload) => ({
   payload,
 });
 
-export const fetchPopulation = async (dispatch) => {
+export const fetchPopulation = () => async (dispatch) => {
   try {
     const response = await fetch(URL);
     const population = await response.json();
 
     dispatch(
-      loadPopulation(population.map((people) => {
+      loadPopulation(population.data.map((people) => {
         const {
           code, country, iso3, populationCounts,
         } = people;
+
         return {
           code, country, iso3, populationCounts,
         };
       })),
     );
-  } catch (error) {
-    throw new Error(error);
+  } catch (err) {
+    throw new Error(err);
   }
 };
 
