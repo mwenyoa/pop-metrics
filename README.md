@@ -3,8 +3,10 @@
 
 # pop-metrics
 
-> **This is a webapp that displays  census metrics data for the all the countries in the world from 1960 to 2018. And it has the functionality of searching for a specific country using  the search bar.**
-
+> **This is a web app that displays  census metrics data for the all the countries in the world from 1960 to 2018. And it has the functionality of searching for a specific country using  the search bar.**
+### API ENDPOINTS:
+#### https://countriesnow.space/api/v0.1/countries/flag/unicode
+#### https://countriesnow.space/api/v0.1/countries/population
 
 ## Built With
 
